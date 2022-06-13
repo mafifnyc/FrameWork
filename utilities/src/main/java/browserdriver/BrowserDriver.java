@@ -36,7 +36,7 @@ public class BrowserDriver {
 
     public static WebDriver driver = null;
     public static String browserName = System.getProperty("browserName", "chrome");
-    public static final String url = System.getProperty("url", "https://www.amazon.com/");
+    public static final String url = System.getProperty("url", "http://hrpms.izaan.io/");
     public static String os = System.getProperty("os", "windows");
     public static String cloudPlatformName = System.getProperty("cloudPlatformName", "browserstack");
     public static final String AUTOMATE_USERNAME = System.getProperty("AUTOMATE_USERNAME","abcd");

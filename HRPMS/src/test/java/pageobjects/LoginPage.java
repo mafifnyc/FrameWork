@@ -12,7 +12,7 @@ public class LoginPage {
     @FindBy(how = How.ID, using = "exampleInputPassword")
     WebElement inputPassword;
 
-    @FindBy(how = How.NAME, using = "__RequestVerificationToken")
+    @FindBy(how = How.CSS, using = "button[type='submit']")
     WebElement loginButton;
 
     public void enterMail() {
