@@ -7,9 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="amazon" />
+        <module name="HRPMS" />
         <module name="utilities" />
         <module name="automationpractice" />
-        <module name="HRPMS" />
       </profile>
     </annotationProcessing>
   </component>

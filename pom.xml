@@ -12,6 +12,7 @@
         <module>utilities</module>
         <module>automationpractice</module>
         <module>HRPMS</module>
+        <module>amazon</module>
     </modules>
 
     <properties>
